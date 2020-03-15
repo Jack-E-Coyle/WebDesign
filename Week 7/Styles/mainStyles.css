@@ -1,0 +1,261 @@
+/* css styling for h1 element*/
+
+header {
+    
+    background-image: url(../Images/carrots.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    color: navajowhite;
+    border: 1px solid blue;
+}
+
+/*__________________________________________________CONTENT*/
+
+#content{
+    
+    float:left;
+    width: 80%;
+    margin-right: 0 10px 0 10px;
+    border: 1px solid grey; 
+}
+
+/*__________________________________________________.COL_DETAIL*/
+
+.col_detail{
+    column-count: 3;
+    column-rule: 1px solid white;
+    column-gap: 50px;
+    padding: 2px;
+}
+
+/*__________________________________________________ASIDE*/
+
+aside{
+    border: 5px solid yellow;
+    width:17%;
+    float: right;
+    text-align: left;
+}
+
+aside ul li{
+    color: white;
+list-style-type: none;
+    text-align: left;
+    
+}
+
+aside ul li a{
+    text-align: left;
+    color: blue;
+    text-decoration: none;
+}
+
+
+/*__________________________________________________NAVIGATION*/
+
+nav {
+    text-align: center;
+    background-color: darkgray;
+    padding: 5px;
+}
+
+nav ul{
+    font-size: 1em;
+}
+
+nav ul li {
+    color: white;
+    text-align: center;
+    background-color: lightgray;
+    display: inline;
+    padding: 15px;
+    margin: 5px;
+}
+
+nav ul :hover{
+
+    background-color: lightgreen;
+
+}
+
+nav ul li a {
+    color: white;
+    text-align: center;
+    list-style-type: none;
+    display: inline;
+    text-decoration: none;
+}
+
+/*__________________________________________________FOOTER*/
+
+footer{
+ color: white;
+   clear: both 
+    border: 1px solid orange;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    background-color: grey;
+    
+    text-align: center;
+    
+    float: right;
+     display: inline-block;
+}
+
+footer ul{
+    
+     list-style-type: none;
+    display: inline-block;
+}
+
+
+footer ul li{
+    color: white;
+    display: inline-block;
+    padding: 15px;
+
+}
+
+footer ul li a{
+    color: white;
+     text-decoration: none;
+     display: inline-block;
+}
+
+/*__________________________________________________SECTION*/
+
+.video{
+    float: left;
+    background-color: black;
+    color: white;
+    text-align: center;
+    align-content: center;
+    padding: 10px;
+    width: 40%;
+}
+
+#seperate{
+    text-align: center;
+}
+
+h2
+{
+    color: white;
+}
+
+
+.backgroundImageB {
+    background-image:url(../Images/bacon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+        border: 3px solid black;
+    margin: 2px;
+
+
+}
+
+.backgroundImageC {
+       background-image:url(../Images/carrots.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    border: 3px solid black;
+    margin: 2px;
+    
+}
+
+.backgroundImageD {
+       background-image:url(../Images/eggs.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    border: 3px solid black;
+    margin: 2px;
+}
+
+.col.article {
+    column-count: 3;
+   
+}
+
+
+.Starters {
+    text-align: center;
+    align-content: center;
+}
+
+.Main {
+     text-align: center;
+    align-content: center;
+}
+
+.Desserts {
+     text-align: center;
+    align-content: center;
+}
+
+
+p {
+    text-align: left;
+}
+
+
+.VideoTwo {
+    float: right;
+    width: 40%;
+     background-color: black;
+    color: white;
+    text-align: center;
+    align-content: center;
+    padding: 10px;
+}
+
+section {
+        background-color: black;
+    color: white;
+    text-align: center;
+    align-content: center;
+    padding: 10px;
+    margin; 10px;
+}
+
+section {
+    float: left;
+      background-color: black;
+    color: white;
+    text-align: center;
+    align-content: center;
+    padding: 10px;
+    margin; 10px;
+}
+
+.aside {
+    background-color: black;
+    color: white;
+    text-align: center;
+    align-content: right;
+    padding: 10px;
+    margin; 10px;    
+
+}
+
+section {
+    
+}
+
+p {
+    
+}
+
+h2 {
+    color: black;
+}
+
+.Chocolate {
+    color: white;
+}
