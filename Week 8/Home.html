@@ -1,0 +1,85 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <!--Declare the primary langauge for each Web page-->
+<head>
+	<meta charset="utf-8" />	<!--8-bit character encoding capable of encoding all possible characters-->
+	<meta name="description" content="">
+    <meta name="keywords" content="">
+	<meta name="author" content="Jack Coyle">
+    
+	<title></title>
+    
+	<link rel="stylesheet" type="text/css" href="Styles/mainStyles.css"/>  
+    <link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32X32" />
+</head>
+
+    <body>
+        <header>
+        <p>Any queries or feedback please Complete and Submit (position relative 10px from top 40% - center)</p>
+        </header>
+
+        <main>
+        
+        <section>
+            <h3>Please enter the following information : (form action="http://year1.ccpdev.me/FormTest.php" method="get" or method="post"</h3>
+            
+            <form action="http://year1.ccpdev.me/FormTest.php" method="post">
+                
+            <!-- ------------------------------------------------------------------------------------------FIRST NAME -->
+                
+            <label for="first_name">First name : <span class="required">*</span></label>
+            <input type="text" name="first_name" id="first_name" autofoucs required><br>
+            
+            <!-- ------------------------------------------------------------------------------------------LAST NAME -->
+                
+            <label for="last_name">Last name : <span class="required">*</span></label>
+            <input type="text" name="last_name" id="last_name" required><br>
+                
+            <!-- ------------------------------------------------------------------------------------------EMAIL -->
+                
+            <label for="email">Email : <span class="required">*</span></label>
+            <input type="email" name="email" id="email" required placeholder="johndo@example.com"><br>
+            
+            <!-- ------------------------------------------------------------------------------------------GENDER -->
+                
+            <label for="gender">Gender : </label>
+            <input type="radio" id="gender" name="gender" value="male"> Male
+            <input type="radio" id="gender" name="gender" value="female"> Female
+            <input type="radio" id="gender" name="gender" value="other"> Other <br>
+                
+            <!-- ------------------------------------------------------------------------------------------HEARD OF US -->
+                
+            <label for="internet">Heard of us : </label>
+            <fieldset>
+                
+            <input type="checkbox" id="internet" name="internet" value="internet" checked> Internet <br>
+                
+            <input type="checkbox" class="marginl" id="hearr" name="paper" value="paper"> Newspaper <br>
+                    
+            <input type="checkbox" class="marginal" id="hear" name="friend" value="friend"> Friend <br>
+                    
+            <input type="checkbox" class="marginal" id="hear" name="Add" value="Add"> Others <br>
+                
+            </fieldset>
+
+              <!-- ------------------------------------------------------------------------------------------QUERY -->   
+                
+            <br>
+            <label for="message">Query : </label>
+                
+            <textarea cols="40" rows="6" id="message" name="messsage" placeholder="Your message must be less than 200 charcaters" data-maxlength="200"></textarea> <br>
+                    
+            <input type="submit" name="submit" id="button" value="Submit">
+            <input type="reset" name="reset" id="reset">
+                        
+            </form>
+            
+            <p style="margin-left: 138px"> <span class="required">*</span> <em type=" font-style: italic;">Indicates a required field</em></p>
+            
+            </section>
+            
+        </main>
+</body>
+</html>
+
+
